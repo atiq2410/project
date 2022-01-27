@@ -103,7 +103,7 @@ Route::get ('/mybookings',            [BookingController ::class, 'myBooking']) 
 Route::get('/click_edit/{id}', [BookingController::class, 'edit_function']);
 Route::post('/update/{id}', [BookingController::class, 'update']);
 Route::get('/click_delete/{id}',[BookingController::class, 'delete_function']);
-Route::get('/click_delete/{id}',[BookingController::class, 'delete']);
+Route::get('/clickdelete/{id}',[BookingController::class, 'delete']);
 
 // Routes for Edit Profile
 Route::get ('/editProfileUser',            [EditProfileController ::class, 'index'])  -> name('editProfileUser');

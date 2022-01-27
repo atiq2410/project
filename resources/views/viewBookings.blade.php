@@ -174,7 +174,7 @@
                         <div class="row1">
                             <br><br>
                             Booking ID: {{$booking->id}}
-                            <a href="/click_delete/{{$booking->id}}">
+                            <a href="/clickdelete/{{$booking->id}}">
                                 <img src="img/bin.png" alt="" id="image">
                             </a>
                         </div>
